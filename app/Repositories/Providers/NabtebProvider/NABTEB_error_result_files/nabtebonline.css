@@ -1,0 +1,147 @@
+BODY {
+  scrollbar-arrow-color:white;
+  scrollbar-track-color:99CC99;
+  scrollbar-shadow-color:ffffff;
+  scrollbar-face-color:003300;
+  scrollbar-highlight-color:99CC99;
+  scrollbar-darkshadow-color:003300;
+  scrollbar-3dlight-color:99CC99;
+}
+
+td.lightgreen{
+	background-color: #D1E9D1;
+	color: Black;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align : left;
+	vertical-align: top;
+}
+
+td.result{
+	background-color: #FFFFFF;
+	layer-background-color: #FFFFFF;
+	color: Black;
+	font-family: Arial, Verdana, Sans-serrif;
+	font-size: 9pt;
+	font-weight: normal;
+	text-align : left;
+	height: 30px;
+}
+
+td.adminlnk{
+	background-color: #FFFFFF;
+	layer-background-color: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Verdana, Sans-serrif;
+	font-size: 8pt;
+	line-height: 15pt;
+	font-weight: normal;
+	text-align : center;
+	height: 30px;
+}
+
+th.title{
+	background-color: #9aca99;
+	layer-background-color: #9aca99;
+	color: #ffffff;
+	font-family: Arial, Verdana, Sans-serrif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align : left;
+	height: 30px;
+}
+
+th.result{
+	background-color: #FFFFFF;
+	layer-background-color: #FFFFFF;
+	color: Black;
+	font-family: Arial, Verdana, Sans-serrif;
+	font-size: 9pt;
+	font-weight: bold;
+	text-align : left;
+	height: 30px;
+}
+
+td.disclaimer{
+	background-color: White;
+	layer-background-color: White;
+	color: #000000;
+	font-family: Verdana, Sans-serrif;
+	font-size: 9pt;
+	line-height: 13pt;
+	font-weight: normal;
+	veritcal-align: top;
+}
+
+th.error{
+	background-color: White;
+	layer-background-color: #AAAAAA;
+	color: Red;
+	font-family: Arial, Verdana, Sans-serrif;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align : left;
+}
+
+input {
+	border: 1px solid #99CC99;
+	background-color: #FFFFFF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-variant: normal;
+	font-weight: bold;
+	color: Black;
+	text-align: left;
+}
+
+input.button {
+	border: 1px solid white;
+	background-color: #003300;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-variant: normal;
+	font-weight: bold;
+	text-align: center;
+	color: #CCFFCC;
+}
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+li {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+
+h3 {
+	font-size: 16px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align: left;
+}
+
+A {
+	color: #00008B;
+	text-decoration: none;
+}
+
+A:HOVER {
+	color: Red;
+	text-decoration: none;
+}
+td.wine {
+
+	background-color: #D1E9D1;
+	color: #990000;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align : left;
+	vertical-align: top;
+}

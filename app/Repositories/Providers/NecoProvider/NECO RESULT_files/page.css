@@ -1,0 +1,26 @@
+.result{width:798px;margin:0 auto;border-right:1px solid #333;border-left:1px solid #333;border-bottom:1px solid #333; font-family:Arial, Helvetica, sans-serif;}
+.logo{height:120px;width:800px;margin:0 auto;}
+.title{padding:8px;font-size:13px;color:#fff;background-color:#333333; font-weight:bold;}
+.disclaimer{padding:20px; border-bottom:1px solid #093;}
+.detailpanel{width:650px; border-collapse:collapse;margin:0 auto; font-size:12px; font-weight:bold; }
+.detail .short input{height:20px;width:200px;border:#999 1px solid; color:#777;}
+.detail .long input{height:20px;width:550px;border:#999 1px solid; color:#777;}
+p{ font-size:12px; text-align:center;}
+.detail{padding-bottom:20px;padding-top:20px;}
+.scores{padding-bottom:20px; color:#333;}
+.resultpanel{width:650px; border-collapse:collapse;margin:0 auto; font-size:12px; font-weight:bold; border:1px solid #063; background:url(images/reg.png) repeat; }
+.resultpanel tr{height:24px;}
+.resultpanel th{ text-align:left;padding:8px; border-left:1px solid #096;border-bottom:1px #063 solid; color:#063;font-size:13px;}
+.resultpanel td{ text-align:left;padding:8px; border-left:1px solid #9C6;border-bottom:1px solid #9C6; text-align:center;}
+.resultpanel .sub{ text-align:left;}
+.resultpanel .even{color:#666;}
+.resultpanel .head{background:#DAFFE3;}
+.panel p{text-align:left;font-size:11px; text-align:left;}
+.foot{color:#093; padding:10px;font-size:11px;}
+.control{width:800px;margin:0 auto; font:12px Arial, Helvetica, sans-serif;color:#666;}
+.control a{color:#666; text-decoration:none;}
+.control a:hover{color:#000;}
+.msButton {
+	color:#000066;font-family:verdana,tahoma,arial; font-size:8pt; font-weight:normal;
+	border:solid #666666 1px; text-decoration:none;
+}

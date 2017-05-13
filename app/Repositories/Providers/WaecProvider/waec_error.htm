@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" idmmzcc-ext-docid="666437632"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script language="javascript">
+var message="Right-mouse click has been disabled.";
+function click(e)
+{
+  if (document.all)
+  {
+    if (event.button==2||event.button==3)
+    {
+      alert(message);
+      return false;
+    }
+  }
+  else
+  {
+    if (e.button==2||e.button==3)
+    {
+      e.preventDefault();
+      e.stopPropagation();
+      alert(message);
+      return false;
+    }
+  }
+  if (e.which)
+  {
+    
+  }
+}
+
+if (document.all) // for IE
+{
+  document.onmousedown=click;
+}
+else // for FF & Chrome
+{
+  document.onclick=click;  
+  document.oncontextmenu=click;
+}
+
+</script>
+
+
+<title>
+	Error Page
+</title><link href="waec_error_files/waecdirect.css" rel="stylesheet" type="text/css"></head>
+<body>
+    <form method="post" action="./ResultError.aspx?errTitle=INVALID+SCRATCH+CARD+DETAIL&amp;errMsg=INVALID+SCRATCH+CARD+DETAIL" id="form1">
+<div class="aspNetHidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMzA0NzMwODMzD2QWAgIDD2QWBAIBDw8WAh4EVGV4dAUbSU5WQUxJRCBTQ1JBVENIIENBUkQgREVUQUlMZGQCAw8PFgIfAAUbSU5WQUxJRCBTQ1JBVENIIENBUkQgREVUQUlMZGRke7oFEsz8NW94O/w6HTrgBZEwQCNEVNeYbL7uxh2wK1o=" type="hidden">
+</div>
+
+<div class="aspNetHidden">
+
+	<input name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D03A426B" type="hidden">
+</div>
+    <div>
+        
+        <table cellspacing="1" cellpadding="0" align="left" height="100%" border="0" width="480">
+<tbody><tr>
+	<td width="100%">
+		<img src="waec_error_files/top_small.jpg" alt="WAEC logo" vspace="0" align="left" hspace="0" height="66" border="0" width="480">
+	</td>
+</tr>
+<tr>
+	<td class="darkblue" width="100%"><a href="http://www.waecnigeria.org/" target="_blank">Click here to visit our corporate website</a></td>
+</tr>
+<tr>
+	<td class="nightblue" width="100%">Error</td>
+</tr>
+<tr>
+	<td colspan="2" class="purple" valign="top" height="90%" width="100%">
+                    <table id="Table1" style="width: 100%">
+                        <tbody><tr>
+                            <td valign="top" align="center">
+                               
+                            </td>
+                        </tr>
+                    </tbody></table>
+		<br><br><br>
+		<table class="error" cellspacing="1" cellpadding="4" align="center" border="0" width="80%">
+		<tbody><tr>
+			<th class="error"><span id="lblErrorTitle">INVALID SCRATCH CARD DETAIL</span></th>
+		</tr>
+            <tr>
+                <th class="error">
+                </th>
+            </tr>
+		<tr>
+			<td class="result"><p><span id="lblErrorMsg" style="color:Red;">INVALID SCRATCH CARD DETAIL</span></p></td>
+		</tr>
+		<tr>
+			<td class="result" align="center"><input value="Return to homepage" class="button" onclick="window.close()" type="submit"></td>
+		</tr>
+		</tbody></table>
+		
+	</td>
+</tr>
+</tbody></table>
+    
+    </div>
+    </form>
+
+
+</body></html>

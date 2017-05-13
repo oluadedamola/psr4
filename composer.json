@@ -1,0 +1,25 @@
+{
+    "name": "Suleodu/reult_checker",
+    "description": "This is a PHP service to fetch olevel result be it WAEC, NECO, NABTEB",
+    "keywords": ["Olevel", "Result"],
+    "type": "Service",
+    "authors": [
+        {
+            "name": "Adedayo Sule-odu",
+            "email": "suleodu.adedayo@gmail.com",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "fabpot/goutte": "^3.1"
+    },
+    "autoload":{
+        "psr-4": {
+            "Repositories\\": "app/Repositories"
+        }
+    }
+}
+
+
+
+
